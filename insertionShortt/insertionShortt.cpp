@@ -49,3 +49,14 @@ void insertionsort()
 			arr[j + 1] = arr[j];	// a. simpan arr[j] ke dalam variabel arr[j + 1]
 			j--;					// b. Decrement nilai j by 1
 		}
+		arr[j + 1] = temp; // 5. simpan nilai temp ke dalam arr[j+1]
+
+
+		cout << endl;
+		cout << "\nPass " << i << ": ";	// Output ke layar
+		for (int k = 0; k < n; k++)		// Looping nilai k dimulai dari 0 hingga
+		{
+			cout << arr[k] << " ";		// Output ke layar
+		}
+	}
+};
