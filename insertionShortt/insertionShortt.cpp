@@ -33,3 +33,10 @@ void input()
 
 	}
 }
+// Procedure Insertionsort
+void insertionsort()
+{
+
+	int temp;	// Membuat variable daya temporer atau penyimpanan sementara
+	int j;		// membuat variable j sebagai tanda
+
